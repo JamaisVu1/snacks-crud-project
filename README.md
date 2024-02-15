@@ -1,19 +1,15 @@
-LAB - Class xx
-Project: Project Name Here
-Author: Student/Group Name
-Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+# LAB - Class 28
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+## Project:
+ snacks CRUD
+
+## Author:
+ Zachary Moore
+
+### How to initialize/run your application (where applicable)
+python manage.py runserver
+
+### Tests
+python manage.py test
+
+Not passing any of the tests, ran out of time figuring things out.

@@ -1,5 +1,14 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
 {% block content %}
-  <h1 class="text-3xl text-green-800">Snacks</h1>
-{% endblock content %}
+<section class="m-8">
+  <h2>Snacks</h2>
+  <div>
+    {% for snack in snacks %}
+      <p>{{ snack.name }} - Purchased by {{ snack.purchaser }}</p>
+    {% empty %}
+      <p>No snacks available.</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
